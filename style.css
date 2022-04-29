@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to right top, #303030, #6c6c6c);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0d5769;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: 75px;
+    margin-top: 55px;
+}
+
+.user>h1 {
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.about>p {
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-right: 20px;
+    font-size: 28px;
+    color: rgb(0, 111, 131);
+    padding: 10px;
+    background: linear-gradient(to right bottom, rgba(137, 241, 255, 0.555), rgba(128, 245, 253, 0.411));
+    border-radius: 30px;
+}
+
+
+/* button start */
+
+.about>button {
+    background-color: #505050;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 10px 20px;
+    font-size: 25px;
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 250ms;
+}
+
+.about>button:hover {
+    /* background: linear-gradient(to right bottom, rgba(0, 225, 255, 0.555), rgba(63, 142, 148, 0.411)); */
+    background-color: #424242;
+    width: 250px;
+    border: none;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.274), 0 17px 50px 0 rgba(35, 37, 39, 0.19);
+}
+
+
+/* button end  */
+
+.glass {
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(0.7rem);
+    display: flex;
+    flex-direction: row;
+}
+
+.circle1,
+.circle2 {
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+    height: 12rem;
+    width: 12rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle1 {
+    top: 5%;
+    right: 15%;
+}
+
+.circle2 {
+    bottom: 5%;
+    left: 15%;
+}
+
+input#name {
+    margin-top: 20px;
+    margin-left: 80px;
+    padding: 2px;
+    width: 300px;
+    height: 60px;
+    background-color: #a8a8a8;
+    color: black;
+    border: 2;
+    border-color: black;
+    transition: 1s;
+    font-size: 25px;
+    text-align: left;
+}
+
+input#name:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.274), 0 17px 50px 0 rgba(35, 37, 39, 0.19);
+}
+
+input#name::placeholder {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+.heading{
+    margin-top: 20px;
+    font-size: 50px;
+    margin-left: 20px;
+    text-align: center;
+}
